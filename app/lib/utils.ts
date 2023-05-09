@@ -6,10 +6,11 @@ import type {
   MoneyV2,
 } from '@shopify/hydrogen/storefront-api-types';
 
-// @ts-expect-error types not available
-import typographicBase from 'typographic-base';
-import {countries} from '~/data/countries';
+// import typographicBase from 'typographic-base';
+// import {countries} from '~/data/countries';
 import {I18nLocale, Locale} from './type';
+
+const countries: any = [];
 
 export interface EnhancedMenuItem extends MenuItem {
   to: string;
@@ -40,10 +41,10 @@ export function formatText(input?: string | React.ReactNode) {
     return input;
   }
 
-  return typographicBase(input, {locale: 'en-us'}).replace(
-    /\s([^\s<]+)\s*$/g,
-    '\u00A0$1',
-  );
+  // return typographicBase(input, {locale: 'en-us'}).replace(
+  //   /\s([^\s<]+)\s*$/g,
+  //   '\u00A0$1',
+  // );
 }
 
 export function getExcerpt(text: string) {

@@ -9,7 +9,7 @@ export function Layout({children, title}) {
           style={{ background: '#B2967D', color: '#F0F0F0', fontFamily: 'Unna', fontStyle: 'normal', fontWeight: '700', fontSize: '24px', lineHeight: '32px', }}
         >
           <a className="font-bold w-full text-center" href="/">
-              { title ? title : `TAX FREE + FREE SHIPPING WITHIN NORWAY / WORLDWIDE SHIPPING` }
+            TAX FREE + FREE SHIPPING WITHIN NORWAY / WORLDWIDE SHIPPING
           </a>
         </div>
         <header

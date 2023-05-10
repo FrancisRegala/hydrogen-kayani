@@ -20,6 +20,16 @@ body {
   /* background-repeat: no-repeat; */
 }
 
+.index2 {
+  /* position: absolute; */
+  width: 1920px;
+  height: 882px;
+  left: 0px;
+  top: 0px;
+  background: #F9EDEB;
+  /* background-repeat: no-repeat; */
+}
+
 .circle_image {
   background-image: url('public/images/circle_line.png');
   background-repeat: no-repeat;
@@ -161,6 +171,14 @@ body {
   width: 330px;
   height: 504px;
   background: url('public/images/girl_green.png');
+  background-repeat: no-repeat;
+}
+
+.image_footer {
+  width: 802px;
+  height: 334px;
+
+  background: url('public/images/image_footer.png');
   background-repeat: no-repeat;
 }
 

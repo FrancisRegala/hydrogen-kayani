@@ -1,11 +1,12 @@
+import { Link } from '@remix-run/react';
 import Logo from '../../public/images/kayani_header_logo.png';
 
 export function Layout({children, title}) {
     return (
-      <div className="flex flex-col min-h-screen antialiased bg-neutral-50">
+      <div className="flex flex-col min-h-screen antialiased bg-neutral-50 w-max">
         <div
           role="banner"
-          className={`flex py-2 backdrop-blur-lg top-0 justify-between w-full leading-none gap-4 antialiased transition shadow-sm`}
+          className={`flex py-2 backdrop-blur-lg top-0 justify-between leading-none gap-4 antialiased transition shadow-sm`}
           style={{ background: '#B2967D', color: '#F0F0F0', fontFamily: 'Unna', fontStyle: 'normal', fontWeight: '700', fontSize: '24px', lineHeight: '32px', }}
         >
           <a className="font-bold w-full text-center" href="/">
@@ -24,7 +25,7 @@ export function Layout({children, title}) {
           <div className="float-right">
             <div className="flex flex-nowrap">
               <div className="flex flex-nowrap pr-6">
-                <div className="px-4">SHOP</div>
+                <Link to="/shop" className="px-4">SHOP</Link>
                 <div className="px-4">COLLECTIONS</div>
                 <div className="px-4">ABOUT US</div>
               </div>
@@ -60,6 +61,39 @@ export function Layout({children, title}) {
         >
           {children ? children : null}
         </main>
+
+        <div
+          role="banner"
+          className={`flex py-2 backdrop-blur-lg top-0 justify-between leading-none gap-4 antialiased transition shadow-sm`}
+          style={{ background: '#B2967D', color: '#F0F0F0', fontFamily: 'Unna', fontStyle: 'normal', fontWeight: '700', fontSize: '24px', lineHeight: '495px', }}
+        >
+          <div className="px-200">
+            <div className="grid grid-cols-2 gap-4 py-8">
+              <div className="grid grid-cols-1 gap-4 content-center max-w-6xl py-8">
+                <div className="landing-text">
+                  <span>Elevate your style game and shop Kayani's unique collection today!</span>
+                </div>
+                <div className="flex flex-col pt-8 mt-8" style={{ paddingRight: '80px' }}>
+                  <div>
+                    <button type="button"
+                      className="font-medium float-right text-white border border-white focus:ring-4 focus:outline-none focus:ring-white-300 font-medium text-white px-5 py-2.5 text-center mb-2 dark:border-white dark:text-white dark:focus:ring-white-800">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-10 h-10">
+                          <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25" />
+                        </svg>
+                    </button>
+                  </div>
+                  <div>
+                    <span className="float-right text-lg">Shop Now</span>
+                  </div>
+                </div>
+              </div>
+
+              <div className="grid grid-cols-1 gap-4 content-center">
+                <div className="image_footer"></div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     );
   }

@@ -151,7 +151,7 @@ export default function Index() {
         <div className="looks4"></div>
       </div>
 
-      <div className="index1 pt-8">
+      <div className="index2 pt-8">
         <div className="px-200">
           <div className="grid grid-cols-2 gap-4">
             <div className="fashion"></div>

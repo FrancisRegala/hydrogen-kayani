@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  background: #FFFFFF;
+  background: #F9EDEB;
   /* font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
     Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
   font-family: 'cardo';
@@ -12,7 +12,7 @@ body {
 
 .index1 {
   /* position: absolute; */
-  width: 1920px;
+  width: auto;
   height: 1734px;
   left: 0px;
   top: 0px;
@@ -22,7 +22,7 @@ body {
 
 .index2 {
   /* position: absolute; */
-  width: 1920px;
+  width: auto;
   height: 882px;
   left: 0px;
   top: 0px;
@@ -73,6 +73,18 @@ body {
   background-repeat: no-repeat;
 }
 
+.image-half-circle-sm {
+  -webkit-border-radius: 0px 346px 346px 0px;
+  -moz-border-radius: 0px 346px 346px 0px;
+  border-radius: 0px 346px 346px 0px;
+  border: none;
+  width: auto;
+  height: 385px;
+  background: url('public/images/image_half_circle.png');
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
 .image-half-circle1 {
   border: none;
   width: 495px;
@@ -81,11 +93,30 @@ body {
   background-repeat: no-repeat;
 }
 
+.image-half-circle1-sm {
+  border: none;
+  width: auto;
+  height: 385px;
+  background: url('public/images/image_half_circle1.png');
+  background-repeat: no-repeat;
+  background-size: 100% 94%;
+}
+
 .girl {
-  width: 1926px;
+  width: auto;
   height: 832px;
   background: url('public/images/girl.png');
   background-repeat: no-repeat;
+  /* background-size: auto; */
+  background-size: 100% 100%;
+}
+
+.girl-sm {
+  width: auto;
+  height: 190px;
+  background: url('public/images/girl.png');
+  background-repeat: no-repeat;
+  background-size: 100%;
 }
 
 .girl1 {
@@ -111,6 +142,15 @@ body {
 
 .looks1 {
   width: 395px;
+  height: 562px;
+  background: url('public/images/looks1.png');
+  background-repeat: no-repeat;
+  background-color: #E0DEDC;
+  background-position: center;
+}
+
+.looks1-sm {
+  width: auto;
   height: 562px;
   background: url('public/images/looks1.png');
   background-repeat: no-repeat;
@@ -152,6 +192,14 @@ body {
   background-repeat: no-repeat;
 }
 
+.fashion-sm {
+  width: auto;
+  height: 205px;
+  background: url('public/images/fashion.png');
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
 .girl-brown {
   -webkit-border-radius: 276px 276px 0px 0px;
   -moz-border-radius: 276px 276px 0px 0px;
@@ -161,6 +209,18 @@ body {
   height: 504px;
   background: url('public/images/girl_brown.png');
   background-repeat: no-repeat;
+}
+
+.girl-brown-sm {
+  -webkit-border-radius: 276px 276px 0px 0px;
+  -moz-border-radius: 276px 276px 0px 0px;
+  border-radius: 276px 276px 0px 0px;
+
+  width: auto;
+  height: 122px;
+  background: url('public/images/girl_brown.png');
+  background-repeat: no-repeat;
+  background-size: 100%;
 }
 
 .girl-green {
@@ -174,12 +234,34 @@ body {
   background-repeat: no-repeat;
 }
 
+.girl-green-sm {
+  -webkit-border-radius: 276px;
+  -moz-border-radius: 276px;
+  border-radius: 276px;
+
+  width: auto;
+  height: 118px;
+  background: url('public/images/girl_green.png');
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
 .image_footer {
-  width: 802px;
-  height: 334px;
+  width: auto;
+  height: 122px;
 
   background: url('public/images/image_footer.png');
   background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.image_footer_sm {
+  width: auto;
+  height: 178px;
+
+  background: url('public/images/image_footer.png');
+  background-repeat: no-repeat;
+  background-size: 100%;
 }
 
 /* 

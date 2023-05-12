@@ -63,52 +63,62 @@ body {
 }
 
 .image-half-circle {
+  position: relative;
   -webkit-border-radius: 0px 346px 346px 0px;
   -moz-border-radius: 0px 346px 346px 0px;
   border-radius: 0px 346px 346px 0px;
   border: none;
-  width: 344px;
-  height: 685px;
+  /* width: auto;
+  height: 365px; */
   background: url('public/images/image_half_circle.png');
   background-repeat: no-repeat;
+  background-size: contain;
 }
 
 .image-half-circle-sm {
+  position: relative;
   -webkit-border-radius: 0px 346px 346px 0px;
   -moz-border-radius: 0px 346px 346px 0px;
   border-radius: 0px 346px 346px 0px;
   border: none;
-  width: auto;
-  height: 385px;
+  /* width: auto;
+  height: 255px; */
   background: url('public/images/image_half_circle.png');
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: contain;
 }
 
 .image-half-circle1 {
+  -webkit-border-radius: 200px 200px 0px 0px;
+  -moz-border-radius: 200px 200px 0px 0px;
+  border-radius: 200px 200px 0px 0px;
   border: none;
-  width: 495px;
-  height: 684px;
+  /* width: auto;
+  height: 374px; */
   background: url('public/images/image_half_circle1.png');
   background-repeat: no-repeat;
+  background-size: contain;
 }
 
 .image-half-circle1-sm {
+  -webkit-border-radius: 200px 200px 0px 0px;
+  -moz-border-radius: 200px 200px 0px 0px;
+  border-radius: 200px 200px 0px 0px;
   border: none;
-  width: auto;
-  height: 385px;
+  /* width: auto;
+  height: 255px; */
   background: url('public/images/image_half_circle1.png');
   background-repeat: no-repeat;
-  background-size: 100% 94%;
+  background-size: contain;
 }
 
 .girl {
-  width: auto;
-  height: 832px;
+  /* width: auto; */
+  /* height: 832px; */
   background: url('public/images/girl.png');
   background-repeat: no-repeat;
   /* background-size: auto; */
-  background-size: 100% 100%;
+  background-size: 100%;
 }
 
 .girl-sm {
@@ -120,33 +130,37 @@ body {
 }
 
 .girl1 {
-  width: 440.74px;
-  height: 662px;
+  /* width: 440.74px; */
+  /* height: 345px; */
   background: url('public/images/girl1.png');
   background-repeat: no-repeat;
+  background-size: 100%;
 }
 
 .girl2 {
-  width: 440.74px;
-  height: 662px;
+  /* width: 440.74px; */
+  /* height: 345px; */
   background: url('public/images/girl2.png');
   background-repeat: no-repeat;
+  background-size: 100%;
 }
 
 .girl3 {
-  width: 440.74px;
-  height: 662px;
+  /* width: 440.74px; */
+  /* height: 345px; */
   background: url('public/images/girl3.png');
   background-repeat: no-repeat;
+  background-size: 100%;
 }
 
 .looks1 {
-  width: 395px;
-  height: 562px;
+  width: auto;
+  /* height: 562px; */
   background: url('public/images/looks1.png');
   background-repeat: no-repeat;
   background-color: #E0DEDC;
   background-position: center;
+  background-size: contain;
 }
 
 .looks1-sm {
@@ -159,30 +173,33 @@ body {
 }
 
 .looks2 {
-  width: 395px;
-  height: 562px;
+  width: auto;
+  /* height: 562px; */
   background: url('public/images/looks2.png');
   background-repeat: no-repeat;
   background-color: #E0DEDC;
   background-position: center;
+  background-size: contain;
 }
 
 .looks3 {
-  width: 395px;
-  height: 562px;
+  width: auto;
+  /* height: 562px; */
   background: url('public/images/looks3.png');
   background-repeat: no-repeat;
   background-color: #E0DEDC;
   background-position: center;
+  background-size: contain;
 }
 
 .looks4 {
-  width: 395px;
-  height: 562px;
+  width: auto;
+  /* height: 562px; */
   background: url('public/images/looks4.png');
   background-repeat: no-repeat;
   background-color: #E0DEDC;
   background-position: center;
+  background-size: contain;
 }
 
 .fashion {
@@ -194,7 +211,7 @@ body {
 
 .fashion-sm {
   width: auto;
-  height: 205px;
+  /* height: 205px; */
   background: url('public/images/fashion.png');
   background-repeat: no-repeat;
   background-size: 100%;
@@ -217,7 +234,7 @@ body {
   border-radius: 276px 276px 0px 0px;
 
   width: auto;
-  height: 122px;
+  /* height: 122px; */
   background: url('public/images/girl_brown.png');
   background-repeat: no-repeat;
   background-size: 100%;
@@ -240,7 +257,7 @@ body {
   border-radius: 276px;
 
   width: auto;
-  height: 118px;
+  /* height: 118px; */
   background: url('public/images/girl_green.png');
   background-repeat: no-repeat;
   background-size: 100%;
@@ -248,7 +265,7 @@ body {
 
 .image_footer {
   width: auto;
-  height: 122px;
+  /* height: 136px; */
 
   background: url('public/images/image_footer.png');
   background-repeat: no-repeat;

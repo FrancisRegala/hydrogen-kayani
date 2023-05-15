@@ -1,3 +1,5 @@
+import { Link } from "@remix-run/react";
+
 export function meta() {
     return [
       {title: 'Hydrogen'},

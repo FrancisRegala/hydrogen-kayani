@@ -46,7 +46,6 @@ export default function App() {
         <meta name="viewport" content="width=device-width,initial-scale=1" />
         <Meta />
         <Links />
-        <script src="http://localhost:8097"></script>
       </head>
       <body>
         <Layout title={'KAYANI'}>

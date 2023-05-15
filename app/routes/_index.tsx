@@ -29,12 +29,12 @@ export default function Index() {
           </div>
           <div className="flex flex-col py-8 mb-4 text-center">
             <div>
-              <button type="button"
+              <Link type="button" to="/shop"
                 className="font-medium text-black border border-gray-800 focus:ring-4 focus:outline-none focus:ring-gray-300 font-medium text-base px-5 py-2.5 text-center mb-2 dark:border-gray-600 dark:text-black dark:focus:ring-gray-800">
                   <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-10 h-10">
                     <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25" />
                   </svg>
-              </button>
+              </Link>
             </div>
             <div>
               <span className="text-lg">Shop Now</span>
@@ -53,12 +53,12 @@ export default function Index() {
               </div>
               <div className="flex flex-col pt-8">
                 <div>
-                  <button type="button"
+                  <Link type="button" to="/shop"
                     className="font-medium float-right text-black border border-gray-800 focus:ring-4 focus:outline-none focus:ring-gray-300 font-medium text-base px-5 py-2.5 text-center mb-2 dark:border-gray-600 dark:text-black dark:focus:ring-gray-800">
                       <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-10 h-10">
                         <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25" />
                       </svg>
-                  </button>
+                  </Link>
                 </div>
                 <div>
                   <span className="float-right text-lg">Shop Now</span>
@@ -133,12 +133,12 @@ export default function Index() {
           </div>
           <div className="flex flex-col py-8 text-center">
             <div>
-              <button type="button"
+              <Link type="button" to="/shop"
                 className="font-medium text-black border border-gray-800 focus:ring-4 focus:outline-none focus:ring-gray-300 font-medium text-base px-5 py-2.5 text-center mb-2 dark:border-gray-600 dark:text-black dark:focus:ring-gray-800">
                   <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-10 h-10">
                     <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25" />
                   </svg>
-              </button>
+              </Link>
             </div>
             <div>
               <span className="text-lg">Shop Now</span>
@@ -161,12 +161,12 @@ export default function Index() {
                 </div>
                 <div className="flex flex-col pt-2 w-5/6">
                   <div>
-                    <button type="button"
+                    <Link type="button" to="/shop"
                       className="font-medium float-right text-black border border-gray-800 focus:ring-4 focus:outline-none focus:ring-gray-300 font-medium text-base px-5 py-2.5 text-center mb-2 dark:border-gray-600 dark:text-black dark:focus:ring-gray-800">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-10 h-10">
                           <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25" />
                         </svg>
-                    </button>
+                    </Link>
                   </div>
                   <div>
                     <span className="float-right text-lg">Shop Now</span>
@@ -249,12 +249,12 @@ export default function Index() {
               <div className="grid grid-cols-1 gap-4">
                 <div className="flex flex-col">
                   <div>
-                    <button type="button"
+                    <Link type="button" to="/shop"
                       className="font-medium float-right text-black border border-gray-800 focus:ring-4 focus:outline-none focus:ring-gray-300 font-medium text-base px-5 py-2.5 text-center mb-2 dark:border-gray-600 dark:text-black dark:focus:ring-gray-800">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-10 h-10">
                           <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25" />
                         </svg>
-                    </button>
+                    </Link>
                   </div>
                   <div>
                     <span className="float-right text-lg">Shop Now</span>
@@ -286,12 +286,12 @@ export default function Index() {
               </div>
               <div className="flex flex-col text-center pb-8">
                 <div>
-                  <button type="button"
+                  <Link type="button" to="/shop"
                     className="font-medium text-white border border-white focus:ring-4 focus:outline-none focus:ring-gray-300 font-medium text-base px-5 py-2.5 text-center mb-2 dark:border-white dark:text-white dark:focus:ring-gray-800">
                       <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-10 h-10">
                         <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25" />
                       </svg>
-                  </button>
+                  </Link>
                 </div>
                 <div>
                   <span className="text-lg">Shop Now</span>
@@ -314,12 +314,12 @@ export default function Index() {
                   </div>
                   <div className="flex flex-col">
                     <div>
-                      <button type="button"
+                      <Link type="button" to="/shop"
                         className="font-medium float-right text-white border border-white focus:ring-4 focus:outline-none focus:ring-white-300 font-medium text-white px-5 py-2.5 text-center mb-2 dark:border-white dark:text-white dark:focus:ring-white-800">
                           <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
                             <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25" />
                           </svg>
-                      </button>
+                      </Link>
                     </div>
                     <div>
                       <span className="float-right text-md">Shop Now</span>

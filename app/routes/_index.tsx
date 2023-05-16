@@ -67,8 +67,8 @@ export default function Index() {
             </div>
             <div className="grid grid-cols-1 gap-4 content-center">
               <div className="grid grid-cols-2 gap-4 items-center">
-                <div className="image-half-circle h-[328px] lg:h-[378px] xl:h-[585px] 2xl:h-[1160px]"></div>
-                <div className="image-half-circle1 h-[328px] lg:h-[378px] xl:h-[585px] 2xl:h-[1160px]"></div>
+                <div className="image-half-circle h-[328px] lg:h-[378px] xl:h-[585px] 2xl:h-[784px]"></div>
+                <div className="image-half-circle1 h-[328px] lg:h-[378px] xl:h-[585px] 2xl:h-[784px]"></div>
               </div>
             </div>
           </div>

@@ -603,6 +603,12 @@ video {
 .h-full {
   height: 100%;
 }
+.h-\[367px\] {
+  height: 367px;
+}
+.h-\[295px\] {
+  height: 295px;
+}
 .min-h-screen {
   min-height: 100vh;
 }
@@ -629,6 +635,12 @@ video {
 }
 .w-full {
   width: 100%;
+}
+.w-\[185px\] {
+  width: 185px;
+}
+.w-\[148px\] {
+  width: 148px;
 }
 .flex-grow {
   flex-grow: 1;
@@ -1058,12 +1070,12 @@ video {
     height: 378px;
   }
 
-  .lg\:h-\[478px\] {
-    height: 478px;
-  }
-
   .lg\:h-\[455px\] {
     height: 455px;
+  }
+
+  .lg\:h-\[478px\] {
+    height: 478px;
   }
 
   .lg\:px-\[100px\] {
@@ -1079,64 +1091,16 @@ video {
 
 @media (min-width: 1280px) {
 
-  .xl\:mt-6 {
-    margin-top: 1.5rem;
-  }
-
   .xl\:mt-8 {
     margin-top: 2rem;
-  }
-
-  .xl\:h-\[358px\] {
-    height: 358px;
-  }
-
-  .xl\:h-\[585px\] {
-    height: 585px;
-  }
-
-  .xl\:h-\[887px\] {
-    height: 887px;
-  }
-
-  .xl\:h-\[877px\] {
-    height: 877px;
-  }
-
-  .xl\:h-\[1132px\] {
-    height: 1132px;
-  }
-
-  .xl\:h-\[600px\] {
-    height: 600px;
-  }
-
-  .xl\:h-\[828px\] {
-    height: 828px;
-  }
-
-  .xl\:h-\[1003px\] {
-    height: 1003px;
-  }
-
-  .xl\:h-\[674px\] {
-    height: 674px;
-  }
-
-  .xl\:h-\[622px\] {
-    height: 622px;
-  }
-
-  .xl\:h-8 {
-    height: 2rem;
   }
 
   .xl\:h-10 {
     height: 2.5rem;
   }
 
-  .xl\:h-\[574px\] {
-    height: 574px;
+  .xl\:h-\[358px\] {
+    height: 358px;
   }
 
   .xl\:h-\[483px\] {
@@ -1151,38 +1115,28 @@ video {
     height: 584px;
   }
 
+  .xl\:h-\[585px\] {
+    height: 585px;
+  }
+
+  .xl\:h-\[600px\] {
+    height: 600px;
+  }
+
   .xl\:h-\[675px\] {
     height: 675px;
   }
 
-  .xl\:w-8 {
-    width: 2rem;
+  .xl\:h-\[828px\] {
+    height: 828px;
   }
 
   .xl\:w-10 {
     width: 2.5rem;
   }
 
-  .xl\:pt-4 {
-    padding-top: 1rem;
-  }
-
-  .xl\:pt-6 {
-    padding-top: 1.5rem;
-  }
-
   .xl\:pt-8 {
     padding-top: 2rem;
-  }
-
-  .xl\:text-4xl {
-    font-size: 2.25rem;
-    line-height: 2.5rem;
-  }
-
-  .xl\:text-7xl {
-    font-size: 4.5rem;
-    line-height: 1;
   }
 
   .xl\:text-6xl {
@@ -1190,14 +1144,14 @@ video {
     line-height: 1;
   }
 
+  .xl\:text-7xl {
+    font-size: 4.5rem;
+    line-height: 1;
+  }
+
   .xl\:text-lg {
     font-size: 1.125rem;
     line-height: 1.75rem;
-  }
-
-  .xl\:text-2xl {
-    font-size: 1.5rem;
-    line-height: 2rem;
   }
 }
 

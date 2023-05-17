@@ -77,7 +77,7 @@ export default function Index() {
         {/* Shop Bestsellers */}
         <div className="md:grid md:grid-cols-3 md:gap-4 md:px-6 py-4 my-4">
           <div className="grid grid-cols-1 gap-4">
-            <div className="girl1 h-[478px] md:h-[345px] lg:h-[478px]">
+            <div className="girl1 h-[478px] md:h-[345px] lg:h-[478px] xl:h-[675px]">
               <div className="relative h-full w-full">
                 <div className="absolute inset-x-0 bottom-0 h-26 mb-8">
                   <div className="grid grid-cols-1 content-center text-center">
@@ -91,7 +91,7 @@ export default function Index() {
             </div>
           </div>
           <div className="grid grid-cols-1 gap-4 py-4 md:py-0">
-            <div className="girl2 h-[478px] md:h-[345px] lg:h-[478px]">
+            <div className="girl2 h-[478px] md:h-[345px] lg:h-[478px] xl:h-[675px]">
               <div className="relative h-full w-full">
                 <div className="absolute inset-x-0 bottom-0 h-26 mb-8">
                   <div className="grid grid-cols-1 content-center text-center">
@@ -105,7 +105,7 @@ export default function Index() {
             </div>
           </div>
           <div className="grid grid-cols-1 gap-4">
-            <div className="girl3 h-[478px] md:h-[345px] lg:h-[478px]">
+            <div className="girl3 h-[478px] md:h-[345px] lg:h-[478px] xl:h-[675px]">
               <div className="relative h-full w-full">
                 <div className="absolute inset-x-0 bottom-0 h-26 mb-8">
                   <div className="grid grid-cols-1 content-center text-center">
@@ -147,16 +147,16 @@ export default function Index() {
         </div>
         {/* See What's Trending - MD */}
         <div className="hidden md:block grid grid-cols-1 gap-4">
-          <div className="girl h-[344px] content-center">
+          <div className="girl h-[344px] lg:h-[455px] xl:h-[828px] content-center">
             <div className="grid grid-cols-2 gap-4">
               <div className="grid grid-cols-1 gap-4 content-center">
                 
               </div>
-              <div className="grid grid-cols-1 gap-4 content-center h-[344px] content-center">
-                <div className="text-2xl text-bold">
+              <div className="grid grid-cols-1 gap-4 content-center h-[344px] content-center xl:pt-8 xl:mt-8">
+                <div className="text-2xl xl:text-6xl text-bold">
                   <strong>See What's Trending</strong>
                 </div>
-                <div className="text-sm text-justify w-5/6">
+                <div className="text-sm xl:text-lg text-justify w-5/6">
                   Check out KAYANI's must-have featured product! Designed with the modern woman in mind, it's a unique and eye-catching piece that combines trendiness with timelessness. Feel confident and powerful with this high-quality item, perfect for any occasion from a night out to a formal event.
                 </div>
                 <div className="flex flex-col pt-2 w-5/6">
@@ -229,10 +229,10 @@ export default function Index() {
             </div>
           </div>
           <div className="grid grid-cols-4 gap-4">
-            <div className="looks1 h-[316px]"></div>
-            <div className="looks2 h-[316px]"></div>
-            <div className="looks3 h-[316px]"></div>
-            <div className="looks4 h-[316px]"></div>
+            <div className="looks1 h-[316px] xl:h-[600px]"></div>
+            <div className="looks2 h-[316px] xl:h-[600px]"></div>
+            <div className="looks3 h-[316px] xl:h-[600px]"></div>
+            <div className="looks4 h-[316px] xl:h-[600px]"></div>
           </div>
         </div>
 
@@ -243,7 +243,7 @@ export default function Index() {
           </div>
         </div>
         <div className="grid grid-cols-2 gap-4 px-6 md:pb-6">
-          <div className="fashion-sm mt-8 h-[205px] md:h-[398px]"></div>
+          <div className="fashion-sm mt-8 h-[205px] md:h-[398px] xl:h-[584px]"></div>
           <div>
             <div className="flex flex-col gap-4">
               <div className="grid grid-cols-1 gap-4">
@@ -262,8 +262,8 @@ export default function Index() {
                 </div>
               </div>
               <div className="grid grid-cols-2 gap-4 pb-4 mb-4">
-                <div className="girl-brown-sm h-[122px] md:h-[241px] lg:h-[318px]"></div>
-                <div className="girl-green-sm h-[122px] md:h-[241px] lg:h-[318px]"></div>
+                <div className="girl-brown-sm h-[122px] md:h-[241px] lg:h-[318px] xl:h-[502px]"></div>
+                <div className="girl-green-sm h-[122px] md:h-[241px] lg:h-[318px] xl:h-[483px]"></div>
               </div>
             </div>
           </div>
@@ -309,14 +309,14 @@ export default function Index() {
             >
               <div className="grid grid-cols-2 gap-4 p-8 w-full">
                 <div className="grid grid-cols-1 gap-4 content-center px-4">
-                  <div className="text-xl xl:text-4xl text-right">
+                  <div className="text-xl xl:text-6xl text-right">
                     <span>Elevate your style game and shop Kayani's unique collection today!</span>
                   </div>
                   <div className="flex flex-col">
                     <div>
                       <Link type="button" to="/shop"
                         className="font-medium float-right text-white border border-white focus:ring-4 focus:outline-none focus:ring-white-300 font-medium text-white px-5 py-2.5 text-center mb-2 dark:border-white dark:text-white dark:focus:ring-white-800">
-                          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
+                          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6 xl:w-10 xl:h-10">
                             <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25" />
                           </svg>
                       </Link>

@@ -123,8 +123,8 @@ body {
 
 .girl-sm {
   width: auto;
-  height: 190px;
-  background: url('public/images/girl.png');
+  height: 402px;
+  background: url('public/images/girl-sm.png');
   background-repeat: no-repeat;
   background-size: 100%;
 }
@@ -274,11 +274,10 @@ body {
 
 .image_footer_sm {
   width: auto;
-  height: 178px;
-
-  background: url('public/images/image_footer.png');
+  height: 352px;
+  background: url('public/images/image_footer_sm.png');
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: contain;
 }
 
 /* 

@@ -7,7 +7,7 @@ export default function Header() {
         <>
             <header
                 role="banner"
-                className={`flex items-center py-2 sticky backdrop-blur-lg z-40 top-0 justify-between w-full leading-none gap-4 antialiased transition shadow-sm px-6 lg:px-[100px]`}
+                className={`bg-[#F9EDEB] md:bg-white flex items-center py-2 sticky backdrop-blur-lg z-40 top-0 justify-between w-full leading-none gap-4 antialiased transition shadow-sm px-6 lg:px-[100px]`}
                 >
                 <div className="flex grid grid-cols-3 md:grid-cols-2 gap-4 w-full">
                     <button data-collapse-toggle="navbar-default" type="button" onClick={() => setIsOpen(!isOpen)}
@@ -22,7 +22,7 @@ export default function Header() {
                     </button>
 
                     <div>
-                    <a className="text-[26px] md:text-[59px]" href="/">
+                    <a className="text-[32px] md:text-[59px]" href="/">
                         KAYANI
                     </a>
                     </div>

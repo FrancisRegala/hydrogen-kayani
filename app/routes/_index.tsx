@@ -14,24 +14,24 @@ export default function Index() {
         {/* Step Up Your Style with Kayani - SM */}
         <div className="block md:hidden">
           <div className="grid grid-cols-1 gap-4 py-8 my-8">
-            <div className="text-5xl text-center px-6">
+            <div className="text-4xl text-center px-12">
               Step Up Your Style with Kayani
             </div>
           </div>
-          <div className="grid grid-cols-2 content-center px-6 pb-4">
-            <div className="image-half-circle-sm h-[367px] w-[185px] place-self-end"></div>
-            <div className="image-half-circle1-sm h-[367px] w-[185px] ml-2"></div>
+          <div className="grid grid-cols-2 content-center px-4 pb-8">
+            <div className="image-half-circle-sm h-[383px] w-[191px]"></div>
+            <div className="image-half-circle1-sm h-[383px] w-[191px]"></div>
           </div>
           <div className="grid grid-cols-1 gap-4 px-6">
             <div className="text-center text-lg">
               Shop Kayani's Exclusive Collection for Unique and Trendy Clothing That Will Make You Stand Out
             </div>
           </div>
-          <div className="flex flex-col py-8 mb-4 text-center">
+          <div className="flex flex-col py-10 mb-8 text-center">
             <div>
               <Link type="button" to="/shop"
-                className="font-medium text-black border border-gray-800 focus:ring-4 focus:outline-none focus:ring-gray-300 font-medium text-base px-5 py-2.5 text-center mb-2 dark:border-gray-600 dark:text-black dark:focus:ring-gray-800">
-                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-10 h-10">
+                className="font-medium text-black border border-gray-800 focus:ring-4 focus:outline-none focus:ring-gray-300 font-medium text-base px-5 py-2 text-center dark:border-gray-600 dark:text-black dark:focus:ring-gray-800">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-8 h-14">
                     <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25" />
                   </svg>
               </Link>
@@ -77,12 +77,12 @@ export default function Index() {
         {/* Shop Bestsellers */}
         <div className="md:grid md:grid-cols-3 md:gap-4 md:px-6 py-4 my-4">
           <div className="grid grid-cols-1 gap-4">
-            <div className="girl1 h-[478px] md:h-[345px] lg:h-[478px] xl:h-[675px]">
+            <div className="girl1 h-[639px] md:h-[345px] lg:h-[478px] xl:h-[675px]">
               <div className="relative h-full w-full">
                 <div className="absolute inset-x-0 bottom-0 h-26 mb-8">
                   <div className="grid grid-cols-1 content-center text-center">
-                    <span className="grid grid-cols-1 text-white text-2xl">Bestsellers</span>
-                    <button className="grid grid-cols-1 bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow my-4 w-[158px] place-self-center">
+                    <span className="grid grid-cols-1 text-white text-4xl mb-4">Bestsellers</span>
+                    <button className="grid grid-cols-1 bg-white text-xl hover:bg-gray-100 text-gray-800 font-semibold py-4 px-8 border border-gray-400 rounded shadow my-4 w-[250px] place-self-center">
                       Shop Bestsellers
                     </button>
                   </div>
@@ -91,12 +91,12 @@ export default function Index() {
             </div>
           </div>
           <div className="grid grid-cols-1 gap-4 py-4 md:py-0">
-            <div className="girl2 h-[478px] md:h-[345px] lg:h-[478px] xl:h-[675px]">
+            <div className="girl2 h-[639px] md:h-[345px] lg:h-[478px] xl:h-[675px]">
               <div className="relative h-full w-full">
                 <div className="absolute inset-x-0 bottom-0 h-26 mb-8">
                   <div className="grid grid-cols-1 content-center text-center">
-                    <span className="grid grid-cols-1 text-white text-2xl">New Arrivals</span>
-                    <button className="grid grid-cols-1 bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow my-4 w-[158px] place-self-center">
+                    <span className="grid grid-cols-1 text-white text-4xl mb-4">New Arrivals</span>
+                    <button className="grid grid-cols-1 bg-white text-xl hover:bg-gray-100 text-gray-800 font-semibold py-4 px-8 border border-gray-400 rounded shadow my-4 w-[250px] place-self-center">
                       Shop Arrivals
                     </button>
                   </div>
@@ -105,12 +105,12 @@ export default function Index() {
             </div>
           </div>
           <div className="grid grid-cols-1 gap-4">
-            <div className="girl3 h-[478px] md:h-[345px] lg:h-[478px] xl:h-[675px]">
+            <div className="girl3 h-[639px] md:h-[345px] lg:h-[478px] xl:h-[675px]">
               <div className="relative h-full w-full">
                 <div className="absolute inset-x-0 bottom-0 h-26 mb-8">
                   <div className="grid grid-cols-1 content-center text-center">
-                    <span className="grid grid-cols-1 text-white text-2xl">Dress Collection</span>
-                    <button className="grid grid-cols-1 bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow my-4 w-[158px] place-self-center">
+                    <span className="grid grid-cols-1 text-white text-4xl mb-4">Dress Collection</span>
+                    <button className="grid grid-cols-1 bg-white text-xl hover:bg-gray-100 text-gray-800 font-semibold py-4 px-8 border border-gray-400 rounded shadow my-4 w-[250px] place-self-center">
                       Shop Dress
                     </button>
                   </div>
@@ -121,27 +121,27 @@ export default function Index() {
         </div>
 
         {/* See What's Trending - SM */}
-        <div className="block md:hidden grid grid-cols-1 gap-4" style={{ backgroundColor: '#D5D5D7' }}>
+        <div className="block md:hidden grid grid-cols-1 gap-4 mt-8" style={{ backgroundColor: '#D5D5D7' }}>
           <div className="girl-sm"></div>
         </div>
-        <div className="block md:hidden grid grid-cols-1 gap-4 content-center px-6 pb-6" style={{ backgroundColor: '#D5D5D7' }}>
-          <div className="text-2xl">
-            <strong>See What's Trending</strong>
+        <div className="block md:hidden grid grid-cols-1 gap-4 content-center py-8 px-6" style={{ backgroundColor: '#D5D5D7' }}>
+          <div className="text-[30px] pt-4 text-bold">
+            See What's Trending
           </div>
-          <div className="text-lg text-justify">
+          <div className="text-md">
             Check out KAYANI's must-have featured product! Designed with the modern woman in mind, it's a unique and eye-catching piece that combines trendiness with timelessness. Feel confident and powerful with this high-quality item, perfect for any occasion from a night out to a formal event.
           </div>
-          <div className="flex flex-col py-8 text-center">
+          <div className="flex flex-col py-2 text-center">
             <div>
               <Link type="button" to="/shop"
-                className="font-medium text-black border border-gray-800 focus:ring-4 focus:outline-none focus:ring-gray-300 font-medium text-base px-5 py-2.5 text-center mb-2 dark:border-gray-600 dark:text-black dark:focus:ring-gray-800">
-                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-10 h-10">
+                className="font-medium text-black border border-gray-800 focus:ring-4 focus:outline-none focus:ring-gray-300 font-medium text-base px-5 py-2 text-center dark:border-gray-600 dark:text-black dark:focus:ring-gray-800">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-8 h-14">
                     <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25" />
                   </svg>
               </Link>
             </div>
             <div>
-              <span className="text-lg">Shop Now</span>
+              <span className="text-md">Shop Now</span>
             </div>
           </div>
         </div>
@@ -180,8 +180,8 @@ export default function Index() {
         {/* New Arrivals - SM */}
         <div className="block md:hidden">
           <div className="grid grid-cols-1 gap-4 content-center pt-8 mt-8">
-            <div className="text-4xl text-center pb-2">
-              New Arrivals
+            <div className="text-4xl text-center text-bold pb-4">
+              <strong>New Arrivals</strong>
             </div>
           </div>
           <div className="grid grid-cols-1 gap-4 pb-4">
@@ -237,8 +237,8 @@ export default function Index() {
         </div>
 
         {/* Fashion That Is Always Relevant */}
-        <div className="grid grid-cols-1 gap-4 pt-8 pb-2 mt-8 px-6">
-          <div className="text-4xl">
+        <div className="grid grid-cols-1 gap-4 pt-8 pb-2 mt-8 pl-6 pr-8 mr-8">
+          <div className="text-4xl text-bold">
             Fashion That Is Always Relevant
           </div>
         </div>
@@ -250,14 +250,14 @@ export default function Index() {
                 <div className="flex flex-col">
                   <div>
                     <Link type="button" to="/shop"
-                      className="font-medium float-right text-black border border-gray-800 focus:ring-4 focus:outline-none focus:ring-gray-300 font-medium text-base px-5 py-2.5 text-center mb-2 dark:border-gray-600 dark:text-black dark:focus:ring-gray-800">
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-10 h-10">
+                      className="font-medium float-right text-black border border-gray-800 focus:ring-4 focus:outline-none focus:ring-gray-300 font-medium text-base px-4 text-center mb-2 dark:border-gray-600 dark:text-black dark:focus:ring-gray-800">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-8 h-12">
                           <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25" />
                         </svg>
                     </Link>
                   </div>
                   <div>
-                    <span className="float-right text-lg">Shop Now</span>
+                    <span className="float-right text-md">Shop Now</span>
                   </div>
                 </div>
               </div>
@@ -276,19 +276,19 @@ export default function Index() {
               className={`py-2 backdrop-blur-lg top-0 justify-between leading-none gap-4 antialiased transition shadow-sm`}
               style={{ background: '#B2967D', color: '#F0F0F0', fontFamily: 'Unna', fontStyle: 'normal', fontWeight: '300' }}
             >
-              <div className="grid grid-cols-1 gap-4 px-4 py-8">
-                <div className="text-xl text-white text-center">
+              <div className="grid grid-cols-1 gap-4 px-8 py-8">
+                <div className="text-[30px] text-white text-center">
                   <span>Elevate your style game and shop Kayani's unique collection today!</span>
                 </div>
               </div>
-              <div className="grid grid-cols-1 gap-4 content-center pb-8">
+              <div className="grid grid-cols-1 gap-4 content-center px-4 pb-8">
                 <div className="image_footer_sm"></div>
               </div>
               <div className="flex flex-col text-center pb-8">
                 <div>
                   <Link type="button" to="/shop"
-                    className="font-medium text-white border border-white focus:ring-4 focus:outline-none focus:ring-gray-300 font-medium text-base px-5 py-2.5 text-center mb-2 dark:border-white dark:text-white dark:focus:ring-gray-800">
-                      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-10 h-10">
+                    className="font-medium text-white border border-white focus:ring-4 focus:outline-none focus:ring-gray-300 font-medium text-base px-5 py-2.5 text-center dark:border-white dark:text-white dark:focus:ring-gray-800">
+                      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-8 h-12">
                         <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25" />
                       </svg>
                   </Link>

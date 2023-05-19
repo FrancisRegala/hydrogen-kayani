@@ -72,7 +72,7 @@ body {
   height: 365px; */
   background: url('public/images/image_half_circle.png');
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: 100% 100%;
 }
 
 .image-half-circle-sm {
@@ -85,7 +85,7 @@ body {
   height: 255px; */
   background: url('public/images/image_half_circle.png');
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
 }
 
 .image-half-circle1 {
@@ -123,7 +123,7 @@ body {
 
 .girl-sm {
   width: auto;
-  height: 402px;
+  height: 42vh;
   background: url('public/images/girl-sm.png');
   background-repeat: no-repeat;
   background-size: 100%;
@@ -165,7 +165,7 @@ body {
 
 .looks1-sm {
   width: auto;
-  height: 562px;
+  height: 63vh;
   background: url('public/images/looks1.png');
   background-repeat: no-repeat;
   background-color: #E0DEDC;
@@ -274,10 +274,10 @@ body {
 
 .image_footer_sm {
   width: auto;
-  height: 352px;
+  height: 35vh;
   background: url('public/images/image_footer_sm.png');
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: 100% 100%;
 }
 
 /* 

@@ -583,9 +583,6 @@ video {
 .h-4 {
   height: 1rem;
 }
-.h-56 {
-  height: 14rem;
-}
 .h-6 {
   height: 1.5rem;
 }
@@ -1107,8 +1104,8 @@ video {
     margin-top: 2rem;
   }
 
-  .lg\:h-\[190px\] {
-    height: 190px;
+  .lg\:h-\[21vh\] {
+    height: 21vh;
   }
 
   .lg\:h-\[37vh\] {
@@ -1125,10 +1122,6 @@ video {
 
   .lg\:h-\[60vh\] {
     height: 60vh;
-  }
-
-  .lg\:h-\[21vh\] {
-    height: 21vh;
   }
 
   .lg\:px-\[100px\] {
@@ -1159,16 +1152,17 @@ video {
     font-size: 3rem;
     line-height: 1;
   }
+
+  .lg\:text-xl {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+  }
 }
 
 @media (min-width: 1280px) {
 
-  .xl\:h-10 {
-    height: 2.5rem;
-  }
-
-  .xl\:h-\[358px\] {
-    height: 358px;
+  .xl\:h-\[31vh\] {
+    height: 31vh;
   }
 
   .xl\:h-\[483px\] {
@@ -1179,68 +1173,37 @@ video {
     height: 502px;
   }
 
-  .xl\:h-\[584px\] {
-    height: 584px;
-  }
-
-  .xl\:h-\[585px\] {
-    height: 585px;
-  }
-
-  .xl\:h-\[600px\] {
-    height: 600px;
-  }
-
-  .xl\:h-\[675px\] {
-    height: 675px;
-  }
-
-  .xl\:h-\[828px\] {
-    height: 828px;
-  }
-
-  .xl\:h-\[60vh\] {
-    height: 60vh;
-  }
-
-  .xl\:h-\[75vh\] {
-    height: 75vh;
-  }
-
-  .xl\:h-\[72vh\] {
-    height: 72vh;
-  }
-
   .xl\:h-\[50vh\] {
     height: 50vh;
-  }
-
-  .xl\:h-\[86vh\] {
-    height: 86vh;
-  }
-
-  .xl\:h-\[57vh\] {
-    height: 57vh;
   }
 
   .xl\:h-\[54vh\] {
     height: 54vh;
   }
 
-  .xl\:h-\[31vh\] {
-    height: 31vh;
+  .xl\:h-\[60vh\] {
+    height: 60vh;
   }
 
-  .xl\:w-10 {
-    width: 2.5rem;
+  .xl\:h-\[72vh\] {
+    height: 72vh;
+  }
+
+  .xl\:h-\[75vh\] {
+    height: 75vh;
+  }
+
+  .xl\:h-\[86vh\] {
+    height: 86vh;
   }
 
   .xl\:w-\[208px\] {
     width: 208px;
   }
 
-  .xl\:w-8 {
-    width: 2rem;
+  .xl\:text-4xl {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
   }
 
   .xl\:text-6xl {
@@ -1258,11 +1221,6 @@ video {
     line-height: 1.75rem;
   }
 
-  .xl\:text-4xl {
-    font-size: 2.25rem;
-    line-height: 2.5rem;
-  }
-
   .xl\:text-xl {
     font-size: 1.25rem;
     line-height: 1.75rem;
@@ -1275,16 +1233,16 @@ video {
     margin-top: 3rem;
   }
 
-  .\32xl\:h-\[784px\] {
-    height: 784px;
-  }
-
-  .\32xl\:h-14 {
-    height: 3.5rem;
-  }
-
   .\32xl\:h-16 {
     height: 4rem;
+  }
+
+  .\32xl\:h-20 {
+    height: 5rem;
+  }
+
+  .\32xl\:h-\[40vh\] {
+    height: 40vh;
   }
 
   .\32xl\:h-\[68vh\] {
@@ -1293,18 +1251,6 @@ video {
 
   .\32xl\:h-\[88vh\] {
     height: 88vh;
-  }
-
-  .\32xl\:h-20 {
-    height: 5rem;
-  }
-
-  .\32xl\:h-24 {
-    height: 6rem;
-  }
-
-  .\32xl\:h-\[40vh\] {
-    height: 40vh;
   }
 
   .\32xl\:w-12 {
@@ -1319,30 +1265,8 @@ video {
     width: 308px;
   }
 
-  .\32xl\:w-\[300px\] {
-    width: 300px;
-  }
-
-  .\32xl\:p-4 {
-    padding: 1rem;
-  }
-
   .\32xl\:pt-12 {
     padding-top: 3rem;
-  }
-
-  .\32xl\:pt-14 {
-    padding-top: 3.5rem;
-  }
-
-  .\32xl\:text-8xl {
-    font-size: 6rem;
-    line-height: 1;
-  }
-
-  .\32xl\:text-9xl {
-    font-size: 8rem;
-    line-height: 1;
   }
 
   .\32xl\:text-2xl {
@@ -1355,9 +1279,9 @@ video {
     line-height: 2.5rem;
   }
 
-  .\32xl\:text-xl {
-    font-size: 1.25rem;
-    line-height: 1.75rem;
+  .\32xl\:text-5xl {
+    font-size: 3rem;
+    line-height: 1;
   }
 
   .\32xl\:text-6xl {
@@ -1365,18 +1289,23 @@ video {
     line-height: 1;
   }
 
-  .\32xl\:text-lg {
-    font-size: 1.125rem;
-    line-height: 1.75rem;
-  }
-
   .\32xl\:text-7xl {
     font-size: 4.5rem;
     line-height: 1;
   }
 
-  .\32xl\:text-5xl {
-    font-size: 3rem;
+  .\32xl\:text-8xl {
+    font-size: 6rem;
     line-height: 1;
+  }
+
+  .\32xl\:text-xl {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+  }
+
+  .\32xl\:text-lg {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
   }
 }

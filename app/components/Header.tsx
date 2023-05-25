@@ -7,7 +7,7 @@ export default function Header() {
         <>
             <header
                 role="banner"
-                className={`bg-[#F9EDEB] md:bg-white flex items-center py-2 sticky backdrop-blur-lg z-40 top-0 justify-between w-full leading-none gap-4 antialiased transition shadow-sm px-6 lg:px-[100px]`}
+                className={`bg-[#F9EDEB] md:bg-white flex items-center py-2 sticky backdrop-blur-lg z-40 top-0 justify-between w-full leading-none gap-4 antialiased transition shadow-sm px-6 md:px-[80px] lg:px-[120px] xl:px-[200px]`}
                 >
                 <div className="flex grid grid-cols-3 md:grid-cols-2 gap-4 w-full">
                     <button data-collapse-toggle="navbar-default" type="button" onClick={() => setIsOpen(!isOpen)}
@@ -22,7 +22,7 @@ export default function Header() {
                     </button>
 
                     <div>
-                    <a className="text-[32px] md:text-[59px]" href="/">
+                    <a className="text-[32px] md:text-[48px]" href="/">
                         KAYANI
                     </a>
                     </div>
@@ -34,9 +34,9 @@ export default function Header() {
                     </Link>
                     <div className="flex flex-nowrap float-right hidden md:block ">
                         <div className="flex flex-nowrap pr-6 pt-4 md:text-sm">
-                        <Link to="/shop" className="px-4">SHOP</Link>
-                        <Link to="/collection" className="px-4">COLLECTIONS</Link>
-                        <Link to="/about" className="px-4">ABOUT</Link>
+                        <Link to="/shop" className="px-2">SHOP</Link>
+                        <Link to="/collection" className="px-2">COLLECTIONS</Link>
+                        <Link to="/about" className="px-2">ABOUT</Link>
 
                         <div className="px-2">
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-4 h-4">

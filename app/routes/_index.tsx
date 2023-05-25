@@ -42,16 +42,16 @@ export default function Index() {
           </div>
         </div>
         {/* Step Up Your Style with Kayani - MD */}
-        <div className="hidden md:block pt-8">
-          <div className="grid grid-cols-2 gap-8 px-6 lg:px-[12vh]">
-            <div className="grid grid-cols-1 gap-4 content-center w-11/12">
-              <div className="text-4xl lg:text-5xl xl:text-7xl 2xl:text-8xl">
+        <div className="hidden md:block py-[60px]">
+          <div className="grid grid-cols-2 gap-8 px-[80px] lg:px-[120px] xl:px-[200px]">
+            <div className="grid grid-cols-1 gap-2 content-center w-11/12">
+              <div className="text-4xl lg:text-4xl xl:text-6xl 2xl:text-7xl">
                 Step Up Your Style with Kayani
               </div>
-              <div className="text-xl text-justify 2xl:text-4xl">
+              <div className="text-sm lg:text-md xl:text-xl 2xl:text-2xl text-justify">
                 Shop Kayani's Exclusive Collection for Unique and Trendy Clothing That Will Make You Stand Out
               </div>
-              <div className="flex flex-col pt-8">
+              <div className="flex flex-col pt-6">
                 <div>
                   <Link type="button" to="/shop"
                     className="font-medium float-right text-black border border-gray-800 focus:ring-4 focus:outline-none focus:ring-gray-300 font-medium text-base px-5 py-2 text-center mb-2 dark:border-gray-600 dark:text-black dark:focus:ring-gray-800">

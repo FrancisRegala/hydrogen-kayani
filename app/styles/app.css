@@ -138,7 +138,7 @@ body {
   /* height: 345px; */
   background: url('public/images/girl1.png');
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: 100% 100%;
 }
 
 .girl2 {
@@ -146,7 +146,7 @@ body {
   /* height: 345px; */
   background: url('public/images/girl2.png');
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: 100% 100%;
 }
 
 .girl3 {
@@ -154,7 +154,7 @@ body {
   /* height: 345px; */
   background: url('public/images/girl3.png');
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: 100% 100%;
 }
 
 .looks1 {

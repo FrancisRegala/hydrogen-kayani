@@ -72,7 +72,7 @@ body {
   height: 365px; */
   background: url('public/images/image_half_circle.png');
   background-repeat: no-repeat;
-  background-size: 100% 100%;
+  background-size: 100%;
   background-position: top;
 }
 
@@ -138,7 +138,7 @@ body {
   /* height: 345px; */
   background: url('public/images/girl1.png');
   background-repeat: no-repeat;
-  background-size: 100% 100%;
+  background-size: 100%;
 }
 
 .girl2 {
@@ -146,7 +146,7 @@ body {
   /* height: 345px; */
   background: url('public/images/girl2.png');
   background-repeat: no-repeat;
-  background-size: 100% 100%;
+  background-size: 100%;
 }
 
 .girl3 {
@@ -154,7 +154,7 @@ body {
   /* height: 345px; */
   background: url('public/images/girl3.png');
   background-repeat: no-repeat;
-  background-size: 100% 100%;
+  background-size: 100%;
 }
 
 .looks1 {
@@ -256,9 +256,10 @@ body {
 }
 
 .girl-green-sm {
-  -webkit-border-radius: 276px;
+  /* -webkit-border-radius: 276px;
   -moz-border-radius: 276px;
-  border-radius: 276px;
+  border-radius: 276px; */
+  border-radius: 50% 50% 50% 50%;
 
   width: auto;
   /* height: 118px; */

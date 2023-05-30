@@ -77,7 +77,7 @@ export default function Index() {
         {/* Shop Bestsellers */}
         <div className="md:grid md:grid-cols-3 md:gap-4 py-[60px] 2xl:py-[80px] md:px-[80px] lg:px-[120px] xl:px-[200px]">
           <div className="grid grid-cols-1 gap-4">
-            <div className="girl1 h-[50vh] md:h-[39vh] lg:h-[50vh] xl:h-[75vh]">
+            <div className="girl1 h-[50vh] md:h-[36vh] lg:h-[46vh] xl:h-[60vh]">
               <div className="relative h-full w-full">
                 <div className="absolute inset-x-0 bottom-0 h-26 mb-8">
                   <div className="grid grid-cols-1 content-center text-center">
@@ -91,7 +91,7 @@ export default function Index() {
             </div>
           </div>
           <div className="grid grid-cols-1 gap-4 py-4 md:py-0">
-            <div className="girl2 h-[50vh] md:h-[39vh] lg:h-[50vh] xl:h-[75vh]">
+            <div className="girl2 h-[50vh] md:h-[36vh] lg:h-[46vh] xl:h-[60vh]">
               <div className="relative h-full w-full">
                 <div className="absolute inset-x-0 bottom-0 h-26 mb-8">
                   <div className="grid grid-cols-1 content-center text-center">
@@ -105,7 +105,7 @@ export default function Index() {
             </div>
           </div>
           <div className="grid grid-cols-1 gap-4">
-            <div className="girl3 h-[50vh] md:h-[39vh] lg:h-[50vh] xl:h-[75vh]">
+            <div className="girl3 h-[50vh] md:h-[36vh] lg:h-[46vh] xl:h-[60vh]">
               <div className="relative h-full w-full">
                 <div className="absolute inset-x-0 bottom-0 h-26 mb-8">
                   <div className="grid grid-cols-1 content-center text-center">
@@ -148,15 +148,15 @@ export default function Index() {
         {/* See What's Trending - MD */}
         <div className="hidden md:block grid grid-cols-1 gap-4 py-[60px] 2xl:py-[80px]">
           <div className="girl h-[39vh] lg:h-[50vh] xl:h-[72vh] 2xl:h-[88vh] content-center">
-            <div className="grid grid-cols-2 gap-4">
-              <div className="grid grid-cols-1 gap-4 content-center">
+            <div className="grid grid-cols-8 gap-4">
+              {/* <div className="grid col-span-4 gap-4 content-center">
                 
-              </div>
-              <div className="grid grid-cols-1 gap-4 content-center h-[42vh] content-center lg:pt-8 lg:mt-8 2xl:pt-12 2xl:mt-12">
-                <div className="text-2xl lg:text-4xl xl:text-6xl text-bold">
+              </div> */}
+              <div className="grid col-start-5 col-span-4 gap-4 content-center h-[41vh] xl:h-[64vh] content-center lg:pt-8 lg:mt-8 2xl:pt-12 2xl:mt-12 pl-8">
+                <div className="text-2xl lg:text-2xl xl:text-4xl text-bold xl:pb-4">
                   <strong>See What's Trending</strong>
                 </div>
-                <div className="text-sm xl:text-lg 2xl:text-4xl text-justify w-5/6">
+                <div className="text-sm xl:text-md 2xl:text-2xl text-justify w-5/6">
                   Check out KAYANI's must-have featured product! Designed with the modern woman in mind, it's a unique and eye-catching piece that combines trendiness with timelessness. Feel confident and powerful with this high-quality item, perfect for any occasion from a night out to a formal event.
                 </div>
                 <div className="flex flex-col pt-2 w-5/6">
@@ -251,7 +251,7 @@ export default function Index() {
                   Fashion That Is Always Relevant
                 </div>
               </div>
-              <div className="flex flex-col">
+              <div className="flex flex-col place-content-end">
                 <div>
                   <Link type="button" to="/shop"
                     className="font-medium float-right text-black border border-gray-800 focus:ring-4 focus:outline-none focus:ring-gray-300 font-medium text-base px-4 text-center mb-2 dark:border-gray-600 dark:text-black dark:focus:ring-gray-800">
@@ -307,12 +307,12 @@ export default function Index() {
         <div className="hidden md:block py-[60px] 2xl:py-[80px]">
           <div
               role="banner"
-              className={`flex p-4 backdrop-blur-lg top-0 justify-between leading-none gap-4 antialiased transition shadow-sm`}
+              className={`flex backdrop-blur-lg top-0 justify-between leading-none gap-4 antialiased transition shadow-sm`}
               style={{ background: '#B2967D', color: '#F0F0F0', fontFamily: 'Unna' }}
             >
-              <div className="grid grid-cols-2 gap-4 p-8 w-full py-[60px]">
+              <div className="grid grid-cols-2 gap-4 w-full py-[60px] md:px-[80px] lg:px-[120px] xl:px-[200px] ">
                 <div className="grid grid-cols-1 gap-4 content-center px-4">
-                  <div className="text-xl lg:text-2xl xl:text-6xl 2xl:text-7xl text-right">
+                  <div className="text-xl lg:text-2xl xl:text-3xl 2xl:text-4xl text-right">
                     <span>Elevate your style game and shop Kayani's unique collection today!</span>
                   </div>
                   <div className="flex flex-col">
